@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./Resources/Images/Graphic Design Elements/Website Logo.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close,menu"
+    />
+    <link rel="stylesheet" href="./Resources/CSS files/contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><span class="material-symbols-outlined">close</span></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a class="logo">DS</a></li>
+          <li class="hide_on_mobile"><a href="index.html">Home</a></li>
+          <li class="hide_on_mobile"><a href="index.html#about">About</a></li>
+          <li class="hide_on_mobile"><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
+          <li class="hide_on_mobile"><a href="#">Contact</a></li>
+          <li onclick="showSidebar()" class="hide_on_desktop">
+            <a href="#"><span class="material-symbols-outlined">menu</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+        <!-- Contact Page -->
+
+      <section class="background">
+        <div class="text">
+          <h1>Contact Me</h1>
+          <h2>
+            If you'd like to get in touch, below are the various ways you can
+            reach me. Feel free to choose the method that works best for you,
+            and I'll respond promptly.
+          </h2>
+        </div>
+        <img src="./Resources/Images/User Interface Elements/Home Office.jpg" alt="" />
+      </section>
+
+      <!-- Contact Links -->
+
+      <section class="contact-links">
+        <div class="box">
+            <h3>Give Me a Call or Send a Text</h3>
+            <div class="box-small-2">
+                <div class="box-small">
+                    <a href="tel:+1407-285-2675"><i class="fa-solid fa-phone fa-2xl"></i></a>
+                    <p>Call</p>
+                </div>
+                <div class="box-small">
+                    <a href="sms:+1407-285-2675"><i class="fa-solid fa-mobile-screen fa-2xl"></i></i></a>
+                    <p>Text</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Reach Out via Email</h3>
+            <a href="mailto:devinsloan2005@gmail.com"><i class="fa-regular fa-envelope fa-2xl"></i></i></a>
+            <p>Email</p>
+        </div>
+        <div class="box">
+            <h3>Connect with Me on Instagram</h3>
+            <a href="https://www.instagram.com/black_multilingual_18/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></i></a>
+            <p>Instagram</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- JavaScript -->
+
+    <script src="./Resources/JavaScript/script.js"></script>
+  </body>
+</html>

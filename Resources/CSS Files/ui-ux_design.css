@@ -126,7 +126,7 @@ h2 {
 .text {
     position: absolute;
     top: 12.5rem;
-    left: 19.5rem;
+    left: 19.2rem;
     color: #F8F8F8;
     text-align: center;
     z-index: 4;
@@ -304,13 +304,14 @@ p.caption {
     }
 
     .text {
-        top: 4rem;
+        top: 3.5rem;
+        left: 0.9rem;
     }
 
     .web-pages p {
-        left: 0.7rem;
-        width: 28rem;
-        font-size: 1.1rem;
+        left: 0.5rem;
+        width: 26rem;
+        font-size: 1rem;
     }
 
     .text-container p {

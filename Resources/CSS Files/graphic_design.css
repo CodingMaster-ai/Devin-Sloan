@@ -130,7 +130,7 @@ h2 {
 .text {
     position: absolute;
     top: 12.5rem;
-    left: 19.5rem;
+    left: 19.3rem;
     color: #F8F8F8;
     text-align: center;
     z-index: 4;
@@ -232,7 +232,8 @@ figcaption {
     }
 
     .text {
-        top: 4.3rem;
+        top: 3.8rem;
+        left: 0.9rem;
     }
 
     .tools img {

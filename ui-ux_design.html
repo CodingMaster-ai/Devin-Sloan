@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./Resources/Images/Graphic Design Elements/Website Logo.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close,menu"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./Resources/CSS files/ui-ux_design.css" />
+    <title>UI/UX Design</title>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><span class="material-symbols-outlined">close</span></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a class="logo">DS</a></li>
+          <li class="hide_on_mobile"><a href="index.html">Home</a></li>
+          <li class="hide_on_mobile"><a href="index.html#about">About</a></li>
+          <li class="hide_on_mobile"><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
+          <li class="hide_on_mobile"><a href="contact.html">Contact</a></li>
+          <li onclick="showSidebar()" class="hide_on_desktop">
+            <a href="#"><span class="material-symbols-outlined">menu</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Intro & Background -->
+
+    <main>
+      <section class="background">
+        <div class="text">
+          <h1>UI/UX Design Portfolio</h1>
+          <h2>
+            I've decided to take the initiative and enroll in Codecademy's
+            self-paced Frontend Engineer course to build a strong foundation in
+            frontend design. Below, I've outlined the programming languages I've
+            learned through the course, along with some of my best web
+            development projects and the languages used to create them.
+          </h2>
+        </div>
+        <img src="./Resources/Images/User Interface Elements/UI-UX Design.jpg" alt="laptop with written code" />
+      </section>
+
+      <!-- Languages -->
+
+      <section class="languages">
+        <figure>
+          <img src="./Resources/Images/User Interface Elements/HTML5 Logo.svg" alt="" />
+          <figcaption>HTML5<br />(Advanced)</figcaption>
+        </figure>
+        <figure>
+          <img src="./Resources/Images/User Interface Elements/CSS Logo.svg" alt="" />
+          <figcaption>CSS<br />(Advanced)</figcaption>
+        </figure>
+        <figure>
+          <img src="./Resources/Images/User Interface Elements/JavaScript Logo.svg" alt="" />
+          <figcaption>JavaScript<br />(Beginner)</figcaption>
+        </figure>
+        <figure>
+          <img src="./Resources/Images/User Interface Elements/Visual Studio Code Logo.svg" alt="" />
+          <figcaption>Visual Studio Code<br />(Text Editor)</figcaption>
+        </figure>
+      </section>
+
+      <!-- Webpage Projects -->
+
+      <section class="web-pages">
+        <p>
+          By applying the skills and knowledge gained from the course, I've been
+          able to create web pages with clean, simple, and highly functional and
+          responsive designs.<br /><b>(Click on image to access webpage)</b>
+        </p>
+        <div class="image-container">
+          <a href="https://codingmaster-ai.github.io/Budget-Luxury/" target="_blank"
+            ><img src="./Resources/Images/User Interface Elements/Luxury on a Budget.jpeg" alt=""
+          /></a>
+          <div class="text-container">
+            <h2>Luxury on a Budget</h2>
+            <p class="caption">
+              This is my Company Homepage project, featuring a premium rental
+              car page designed for stylish, affordable driving. Developed in
+              <b>Visual Studio Code</b> using <b>HTML and CSS</b>.
+            </p>
+          </div>
+        </div>
+        <div class="image-container">
+          <div class="text-container">
+            <h2>GameTime Café</h2>
+            <p class="caption">
+              This is a club webpage for GameTime Café, a family-friendly venue
+              offering food, games, and karaoke. Developed in <b>Visual Studio Code</b>
+              using <b>HTML and CSS</b>.
+            </p>
+          </div>
+          <a href="https://codingmaster-ai.github.io/GameTime-Cafe/" target="_blank"
+            ><img src="./Resources/Images/User Interface Elements/GameTime Cafe.jpeg" alt=""
+          /></a>
+        </div>
+      </section>
+    </main>
+
+    <!-- JavaScript -->
+
+    <script src="./Resources/JavaScript/script.js"></script>
+  </body>
+</html>

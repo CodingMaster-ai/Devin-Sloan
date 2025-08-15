@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devin Sloan</title>
+    <link rel="icon" type="image/png" href="./Resources/Images/Website Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close,menu"
+    />
+    <link rel="stylesheet" href="./Resources/CSS files/style.css" />
+  </head>
+  <body>
+
+      <!-- Navigation Bar -->
+
+      <header>
+          <nav>
+            <ul class="sidebar">
+              <li onclick="hideSidebar()">
+                <a href="#"><span class="material-symbols-outlined">close</span></a>
+              </li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+              <li><a class="logo">DS</a></li>
+              <li class="hide_on_mobile"><a href="#">Home</a></li>
+              <li class="hide_on_mobile"><a href="#about">About</a></li>
+              <li class="hide_on_mobile"><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
+              <li class="hide_on_mobile"><a href="contact.html">Contact</a></li>
+              <li onclick="showSidebar()" class="hide_on_desktop">
+                <a href="#"><span class="material-symbols-outlined">menu</span></a>
+              </li>
+            </ul>
+          </nav>
+      </header>
+      <main>
+
+        <!-- Basic Introduction -->
+
+          <section class="intro">
+            <img src="./Resources/Images/Selfies/Mirror Selfie 2.jpeg" alt="" />
+            <div class="text-container">
+              <h1>
+                Hey I'm <br />
+                <span>Devin Sloan</span>
+              </h1>
+              <h2>
+                An aspiring <span>graphic</span> and <span>UI/UX designer</span> based
+                in Orlando, Florida, passionate about creating intuitive and visually
+                compelling digital experiences
+              </h2>
+              <a href="ui-ux_design.html"><button>UI/UX Design</button></a>
+              <a href="graphic_design.html"><button>Graphic Design</button></a>
+            </div>
+          </section>
+
+          <!-- About -->
+
+          <section id="about">
+            <div class="container">
+              <div class="mini-container">
+                <h2>About</h2>
+                <p>
+                  I've had a passion for coding and web development since middle
+                  school. As an adult, I expanded my skill set by studying graphic
+                  design at a tech school and learning the basics of frontend
+                  development on my own. My goal is to combine these two skills in a
+                  career where I can leverage both to drive success and innovation in
+                  the tech industry.
+                </p>
+                <div class="icons">
+                  <a href="https://www.linkedin.com/in/devin-sloan-81697936b" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                  <a href="https://github.com/CodingMaster-ai" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+                </div>
+              </div>
+              <img src="./Resources/Images/Selfies/Mirror Selfie 1.jpeg" alt="" />
+            </div>
+          </section>
+      </main>
+      
+      <!-- JavaScript -->
+
+    <script src="./Resources/JavaScript/script.js"></script>
+  </body>
+</html>

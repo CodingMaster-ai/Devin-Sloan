@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./Resources/Images/Graphic Design Elements/Website Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close,menu"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./Resources/CSS files/graphic_design.css" />
+    <title>Graphic Design</title>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><span class="material-symbols-outlined">close</span></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a class="logo">DS</a></li>
+          <li class="hide_on_mobile"><a href="index.html">Home</a></li>
+          <li class="hide_on_mobile"><a href="index.html#about">About</a></li>
+          <li class="hide_on_mobile"><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
+          <li class="hide_on_mobile"><a href="contact.html">Contact</a></li>
+          <li onclick="showSidebar()" class="hide_on_desktop">
+            <a href="#"><span class="material-symbols-outlined">menu</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Graphic Design Background -->
+
+      <section class="background">
+        <div class="text">
+          <h1>Graphic Design Portfolio</h1>
+          <h2>
+            Here is a list of the design software I learned while enrolled in
+            the Digital Media/Multimedia Design program at Orange Technical
+            College. Additionally, you'll find my portfolio showcasing some of
+            the best designs I've created since then.
+          </h2>
+        </div>
+        <img src="./Resources/Images/Graphic Design Elements/Graphic Design.jpg" alt="" />
+      </section>
+
+      <!-- Design Tools & Portfolio -->
+
+      <section class="tools">
+        <figure>
+          <img src="./Resources/Images/Graphic Design Elements/Adobe Photoshop.svg" alt="" />
+          <figcaption>Adobe Photoshop<br>(Advanced)</figcaption>
+        </figure>
+        <figure>
+          <img src="./Resources/Images/Graphic Design Elements/Adobe Illustrator.svg" alt="" />
+          <figcaption>Adobe Illustrator<br>(Advanced)</figcaption>
+        </figure>
+        <figure>
+          <img src="./Resources/Images/Graphic Design Elements/Adobe InDesign.svg" alt="" />
+          <figcaption>Adobe InDesign<br>(Intermediate)</figcaption>
+        </figure>
+        <figure>
+          <img src="./Resources/Images/Graphic Design Elements/Adobe Express.svg" alt="" />
+          <figcaption>Adobe Express<br>(Intermediate)</figcaption>
+        </figure>
+        <p>
+          These design tools enable me to create a wide range of projects, from
+          postcards and photo manipulations to complete game redesigns.
+        </p>
+        <figure>
+          <a href="./Resources/Images/PDF Files/Devin's Digital Portfolio.pdf" target="_blank"><img src="./Resources/Images/Graphic Design Elements/Portfolio.svg" class="icon_reshape" alt="" /></a>
+          <figcaption>Portfolio<br>(Click Icon)</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <!-- JavaScript -->
+
+    <script src="./Resources/JavaScript/script.js"></script>
+  </body>
+</html>

@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devin Sloan</title>
-    <link rel="icon" type="image/png" href="./Resources/Images/Graphic Design Elements/Website Logo.png">
+    <link
+      rel="icon"
+      type="image/png"
+      href="./Resources/Images/Graphic Design Elements/Website Logo.png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,78 +26,101 @@
     <link rel="stylesheet" href="./Resources/CSS Files/style.css" />
   </head>
   <body>
+    <!-- Navigation Bar -->
 
-      <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><span class="material-symbols-outlined">close</span></a>
+          </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li>
+            <a
+              href="./Resources/Images/PDF Files/Devin Sloan.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a class="logo">DS</a></li>
+          <li class="hide_on_mobile"><a href="#">Home</a></li>
+          <li class="hide_on_mobile"><a href="#about">About</a></li>
+          <li class="hide_on_mobile">
+            <a
+              href="./Resources/Images/PDF Files/Devin Sloan.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li class="hide_on_mobile"><a href="contact.html">Contact</a></li>
+          <li onclick="showSidebar()" class="hide_on_desktop">
+            <a href="#"><span class="material-symbols-outlined">menu</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Basic Introduction -->
 
-      <header>
-          <nav>
-            <ul class="sidebar">
-              <li onclick="hideSidebar()">
-                <a href="#"><span class="material-symbols-outlined">close</span></a>
-              </li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <ul>
-              <li><a class="logo">DS</a></li>
-              <li class="hide_on_mobile"><a href="#">Home</a></li>
-              <li class="hide_on_mobile"><a href="#about">About</a></li>
-              <li class="hide_on_mobile"><a href="./Resources/Images/PDF Files/Devin Sloan.pdf" target="_blank">Resume</a></li>
-              <li class="hide_on_mobile"><a href="contact.html">Contact</a></li>
-              <li onclick="showSidebar()" class="hide_on_desktop">
-                <a href="#"><span class="material-symbols-outlined">menu</span></a>
-              </li>
-            </ul>
-          </nav>
-      </header>
-      <main>
+      <section class="intro">
+        <img src="./Resources/Images/Selfies/Mirror Selfie 2.jpeg" alt="" />
+        <div class="text-container">
+          <h1>
+            Hey I'm <br />
+            <span>Devin Sloan</span>
+          </h1>
+          <h2>
+            A <span>Graphic Designer</span> and <span>Web Developer</span> based
+            in Orlando, Florida, passionate about creating intuitive and
+            visually compelling digital experiences
+          </h2>
+          <a href="web_development.html"><button>Web Development</button></a>
+          <a href="graphic_design.html"><button>Graphic Design</button></a>
+        </div>
+      </section>
 
-        <!-- Basic Introduction -->
+      <!-- About -->
 
-          <section class="intro">
-            <img src="./Resources/Images/Selfies/Mirror Selfie 2.jpeg" alt="" />
-            <div class="text-container">
-              <h1>
-                Hey I'm <br />
-                <span>Devin Sloan</span>
-              </h1>
-              <h2>
-                An aspiring <span>graphic</span> and <span>UI/UX designer</span> based
-                in Orlando, Florida, passionate about creating intuitive and visually
-                compelling digital experiences
-              </h2>
-              <a href="ui-ux_design.html"><button>UI/UX Design</button></a>
-              <a href="graphic_design.html"><button>Graphic Design</button></a>
+      <section id="about">
+        <div class="container">
+          <div class="mini-container">
+            <h2>About</h2>
+            <p>
+              I've been passionate about coding and web development since middle
+              school. As an adult, I expanded my skill set by enrolling in a
+              Digital Media/Multimedia Design program at Orange Technical
+              College, where I learned to create graphics for both print and
+              digital platforms.
+              <br>
+              <br>
+              In addition, I independently completed a
+              Front-End Engineer course through Codecademy, gaining hands-on
+              experience in building fully responsive, functional websites. My
+              goal is to combine these skills in a career where I can leverage
+              both design and development to drive innovation and contribute
+              meaningfully to the tech industry.
+            </p>
+            <div class="icons">
+              <a
+                href="https://www.linkedin.com/in/devin-sloan-9216ab38a"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin fa-xl"></i
+              ></a>
+              <a href="https://github.com/CodingMaster-ai" target="_blank"
+                ><i class="fa-brands fa-github fa-xl"></i
+              ></a>
             </div>
-          </section>
+          </div>
+          <img src="./Resources/Images/Selfies/Mirror Selfie 1.jpeg" alt="" />
+        </div>
+      </section>
+    </main>
 
-          <!-- About -->
-
-          <section id="about">
-            <div class="container">
-              <div class="mini-container">
-                <h2>About</h2>
-                <p>
-                  I've had a passion for coding and web development since middle
-                  school. As an adult, I expanded my skill set by studying graphic
-                  design at a tech school and learning the basics of frontend
-                  development on my own. My goal is to combine these two skills in a
-                  career where I can leverage both to drive success and innovation in
-                  the tech industry.
-                </p>
-                <div class="icons">
-                  <a href="https://www.linkedin.com/in/devin-sloan-81697936b" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
-                  <a href="https://github.com/CodingMaster-ai" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
-                </div>
-              </div>
-              <img src="./Resources/Images/Selfies/Mirror Selfie 1.jpeg" alt="" />
-            </div>
-          </section>
-      </main>
-      
-      <!-- JavaScript -->
+    <!-- JavaScript -->
 
     <script src="./Resources/JavaScript/script.js"></script>
   </body>

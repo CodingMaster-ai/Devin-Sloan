@@ -188,6 +188,10 @@ button:hover {
     padding-right: 0.5rem;
 }
 
+.icons {
+    margin-bottom: 1.2rem;
+}
+
 .icons a {
     color: #2A2A87;
 }

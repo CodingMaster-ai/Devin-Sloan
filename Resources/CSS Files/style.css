@@ -273,4 +273,10 @@ button:hover {
     #about p {
         width: 25rem;
     }
+
+    button {
+        position: relative;
+        left: 0.5rem;
+    }
+
 }
